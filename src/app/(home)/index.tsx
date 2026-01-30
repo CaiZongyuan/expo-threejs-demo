@@ -28,6 +28,14 @@ export default function Home() {
           colors={["#a18cd1", "#fbc2eb"]}
           icon="cube"
         />
+
+        <ExampleCard
+          title="Galaxy Scene"
+          description="Interactive 3D planet with particle starfield"
+          href="/galaxyScene"
+          colors={["#1e3c72", "#2a5298", "#1e3c72"]}
+          icon="planet"
+        />
       </ScrollView>
     </SafeAreaView>
   );
